@@ -1,0 +1,2 @@
+version=3
+https://github.com/lpicanco/i3-autodisplay/releases (?:.*/)?-([0-9.]+)\.tar

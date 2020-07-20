@@ -1,0 +1,19 @@
+Source: i3-autodisplay
+Section: x11
+Priority: extra
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-golang,
+ golang-any,
+ x11-xserver-utils,
+Standards-Version: 4.5.0
+Homepage: https://github.com/lpicanco/i3-autodisplay
+
+Package: i3-autodisplay
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: i3wm multiple monitors auto configuration
+ i3-autodisplay is a i3wm display auto-configuration.

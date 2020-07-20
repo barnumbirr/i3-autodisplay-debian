@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/lpicanco/i3-autodisplay
+export GOPATH := $(CURDIR)/obj-$(DEB_BUILD_GNU_TYPE)
+
+%:
+	dh $@ --buildsystem=golang --with=golang
