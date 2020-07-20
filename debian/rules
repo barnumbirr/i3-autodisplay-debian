@@ -5,3 +5,6 @@ export GOPATH := $(CURDIR)/obj-$(DEB_BUILD_GNU_TYPE)
 
 %:
 	dh $@ --buildsystem=golang --with=golang
+
+override_dh_dwz:
+	true
