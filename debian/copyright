@@ -2,7 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: i3-autodisplay
 Source: https://github.com/lpicanco/i3-autodisplay
 
-
 Files: *
 Copyright: Copyright © 2019-2020 Luiz Picanço
 License: GPL-3+
