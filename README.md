@@ -9,7 +9,7 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname~$ ./build.sh
 ```
-By default this will build i3-autodisplay 0.4 on Debian Buster.
+By default this will build i3-autodisplay 0.5 on Debian Buster.
 
 If you want to customize the build at runtime, use the following:
 
@@ -28,7 +28,7 @@ To publish a new package version to Github, follow these steps:
 ## License
 
 ```
-Copyright (c) 2020, Martin Simon
+Copyright (c) 2020-2021, Martin Simon
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
