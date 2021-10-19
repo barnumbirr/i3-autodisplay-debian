@@ -3,11 +3,11 @@ Upstream-Name: i3-autodisplay
 Source: https://github.com/lpicanco/i3-autodisplay
 
 Files: *
-Copyright: Copyright © 2019-2020 Luiz Picanço
+Copyright: Copyright © 2019-2021 Luiz Picanço
 License: GPL-3+
 
 Files: debian/*
-Copyright: 2020 Martin Simon <me@martinsimon.me>
+Copyright: 2020-2021 Martin Simon <me@martinsimon.me>
 License: GPL-3+
 
 License: GPL-3+
